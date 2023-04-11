@@ -254,7 +254,7 @@ p{
     background: #0dcaf0;
     width: 5px;
     height: 100%;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .myBeautifulTeam-image {
@@ -269,7 +269,7 @@ p{
    }
 
 .myBeautifulTeam-image:hover {
-    transition: 1s;
+    transition: 0.7s;
     transform: scale(1.1);
     object-fit: cover;
 }
@@ -319,17 +319,17 @@ p{
 
 .myBeautifulTeam-thumb .social-icon {
     opacity: 0;
-    transition: opacity all 1s;
+    transition: opacity all 0.1s;
 }
 
 .myBeautifulTeam-thumb:hover .social-icon {
     opacity: 1;
-    transition-delay: 1s;
+    transition-delay: 0.4s;
 }
 
 .social-icon {
     opacity: 1;
-    transition-delay: 1s;
+    transition-delay: 0.4s;
 }
 
 .social-icon-link {
